@@ -1,0 +1,43 @@
+<html>
+<head>
+  <title>Roguelike Speed Demo</title>
+  <style>
+    body {
+      background: #fff;
+      color: #222;
+      text-align: center;
+      font: 16px Georgia, serif;
+      width: 600px;
+    }
+
+    canvas {
+      display: inline-block;
+      padding: 6px;
+      background: #222;
+      outline: none;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    pre {
+      font: 12px/14px Menlo, inconsolata, monaco, monospace;
+      letter-spacing: 1px;
+      width: 900px;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+<body>
+<script type="application/dart" src="main.dart"></script>
+<script src="packages/browser/dart.js"></script>
+<h2>Same speed</h2>
+<canvas id="same-speed" tabindex="1">Sorry, you need canvas support for this demo.</canvas>
+<p>Use arrow keys or <code>iopkl;,./</code> to move. Press <code>t</code> to teleport.</p>
+<h2>Speed bars</h2>
+<canvas id="speed-bars" tabindex="2">Sorry, you need canvas support for this demo.</canvas>
+<h2>Safe failure</h2>
+<canvas id="safe-fail" tabindex="3">Sorry, you need canvas support for this demo.</canvas>
+<h2>Alternate actions</h2>
+<canvas id="alternate" tabindex="4">Sorry, you need canvas support for this demo.</canvas>
+</body>
+</html>
