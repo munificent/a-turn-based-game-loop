@@ -1,7 +1,5 @@
 name: a_turn_based_game_loop
 dependencies:
   browser: any
-  malison:
-    path: ../malison
-  piecemeal:
-    path: ../piecemeal
+  malison: any
+  piecemeal: any

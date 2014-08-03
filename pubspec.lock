@@ -6,14 +6,10 @@ packages:
     source: hosted
     version: "0.10.0+2"
   malison:
-    description:
-      path: "../malison"
-      relative: true
-    source: path
-    version: "0.0.1"
+    description: malison
+    source: hosted
+    version: "0.1.0"
   piecemeal:
-    description:
-      path: "../piecemeal"
-      relative: true
-    source: path
-    version: "0.0.1"
+    description: piecemeal
+    source: hosted
+    version: "0.1.0"
